@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-03T19:07:26 IST" name="Suite" finished-at="2023-07-03T19:08:09 IST" duration-ms="42668">
+    <groups>
+    </groups>
+    <test started-at="2023-07-03T19:07:26 IST" name="SignInTest" finished-at="2023-07-03T19:07:47 IST" duration-ms="21337">
+      <class name="framework.Test.SigninTest">
+        <test-method is-config="true" signature="LaunchApp()[pri:0, instance:framework.Test.SigninTest@37e4d7bb]" started-at="2023-07-03T19:07:26 IST" name="LaunchApp" finished-at="2023-07-03T19:07:36 IST" duration-ms="9530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method signature="singin(java.util.HashMap)[pri:0, instance:framework.Test.SigninTest@37e4d7bb]" started-at="2023-07-03T19:07:36 IST" name="singin" data-provider="getValues" finished-at="2023-07-03T19:07:45 IST" duration-ms="9468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=s@8291949412, wrongpassword=s8291949412, email=s.deshmukh1214@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singin -->
+        <test-method is-config="true" signature="DriverClose()[pri:0, instance:framework.Test.SigninTest@37e4d7bb]" started-at="2023-07-03T19:07:45 IST" name="DriverClose" finished-at="2023-07-03T19:07:47 IST" duration-ms="2062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverClose -->
+      </class> <!-- framework.Test.SigninTest -->
+    </test> <!-- SignInTest -->
+    <test started-at="2023-07-03T19:07:47 IST" name="AccountTest" finished-at="2023-07-03T19:08:09 IST" duration-ms="21075">
+      <class name="framework.Test.CreateAccountTest">
+        <test-method is-config="true" signature="LaunchApp()[pri:0, instance:framework.Test.CreateAccountTest@d41f816]" started-at="2023-07-03T19:07:47 IST" name="LaunchApp" finished-at="2023-07-03T19:07:51 IST" duration-ms="3238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method signature="failedlogin(java.util.HashMap)[pri:0, instance:framework.Test.CreateAccountTest@d41f816]" started-at="2023-07-03T19:07:51 IST" name="failedlogin" data-provider="getValues" finished-at="2023-07-03T19:07:53 IST" duration-ms="1959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=shiv, cnfpass=s@8291949412, pass=s@8291949412, email=sdeshmukh, lastname=deshmukh}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedlogin -->
+        <test-method is-config="true" signature="DriverClose()[pri:0, instance:framework.Test.CreateAccountTest@d41f816]" started-at="2023-07-03T19:07:53 IST" name="DriverClose" finished-at="2023-07-03T19:07:55 IST" duration-ms="2055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverClose -->
+        <test-method is-config="true" signature="LaunchApp()[pri:0, instance:framework.Test.CreateAccountTest@d41f816]" started-at="2023-07-03T19:07:55 IST" name="LaunchApp" finished-at="2023-07-03T19:07:58 IST" duration-ms="2970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method signature="login(java.util.HashMap)[pri:0, instance:framework.Test.CreateAccountTest@d41f816]" started-at="2023-07-03T19:07:58 IST" name="login" data-provider="getValues" finished-at="2023-07-03T19:08:06 IST" duration-ms="8646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=shiv, cnfpass=s@8291949412, pass=s@8291949412, email=sdeshmukh, lastname=deshmukh}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="DriverClose()[pri:0, instance:framework.Test.CreateAccountTest@d41f816]" started-at="2023-07-03T19:08:06 IST" name="DriverClose" finished-at="2023-07-03T19:08:09 IST" duration-ms="2043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverClose -->
+      </class> <!-- framework.Test.CreateAccountTest -->
+    </test> <!-- AccountTest -->
+  </suite> <!-- Suite -->
+</testng-results>
